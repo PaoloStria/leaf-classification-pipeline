@@ -63,5 +63,13 @@ This repository implements a complete pipeline for processing leaf images—from
         - **Unknown** (object not matching any known class)
 ---
 
+Example Detection Result 🖼️
+Below is an example of the leaf segmentation and classification output produced by this pipeline:
+
+<p align="center"> <img src="src/detection_example.png" alt="Example of leaf segmentation and classification" width="550"/> </p>
+The image above shows a typical result: segmented leaves are outlined and assigned their predicted classes. “Unknown” objects are handled robustly, ensuring versatility across diverse compositions.
+
+
+
 This project combines advanced image processing techniques with robust machine learning models to offer a versatile solution for leaf segmentation and classification. Whether you're working on precision agriculture, botanical research, or image recognition, this repository provides a solid foundation and clear modular design. 
 🌿✨
